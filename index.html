@@ -14,11 +14,11 @@
     <div id="map"></div>
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script>
-        var map = L.map('map').setView([-6.200000, 106.816666], 14); // Ganti dengan koordinat yang diinginkan
+        var map = L.map('map').setView([-6.982550321532622, 110.40890012012727], 14); // Ganti dengan koordinat yang diinginkan
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 19,
         }).addTo(map);
-        L.marker([-6.200000, 106.816666]).addTo(map) // Ganti dengan lokasi agen
+        L.marker([-6.982550321532622, 110.40890012012727]).addTo(map) // Ganti dengan lokasi agen
             .bindPopup('Lokasi Agen')
             .openPopup();
     </script>
